@@ -58,5 +58,5 @@ state = App:State.new(items: [])
 store = LeanRedux::Store.new(state)
 
 store.dispatch(App::Actions::Increment)
-store.state.counter # 1
+store.state.counter # 2
 ```
